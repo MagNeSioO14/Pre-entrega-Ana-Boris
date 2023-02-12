@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    margin: 20px 0px;
+}
+
+a, ul, h2, label,p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style-type: none;
+}
+button{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius:30px;
+    padding: 20px;
+    margin: 0px 30px;
+}
+
+.logo{
+    width: 8%;
+    height: 8%;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+/* header{
+    padding: 30px 10%;
+    background-color: black;
+} */
+
+.segundo{
+    background-color:blanchedalmond;
+    padding: 1% 10%;
+}
+
+.segundo a{
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pad{
+    padding: 0px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+footer{
+    width: 100%;
+}
+
+.divFoter{
+    display: flex;
+    justify-content: space-around;
+    background-color:blanchedalmond;
+    margin: 40px 0px 0px 0px;
+}
+
+.divFoter ul{
+    padding: 20px 30px 30px 30px;
+    color: black;
+}
+.divFoter a{
+    color: black;
+    font-weight: bold;
+}
+h4{
+    margin: 10px 0px; 
+    font-weight:900;
+    text-transform: uppercase;
+}
+
+.divcat, .spanOrder, .formorden{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.divcat div{
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.quienesSomos, .talles{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 150px;
+}
+
+.talles img{
+    height: 500px;
+    width: 500px;
+    margin: 0px 70px;
+}
+.talles p{
+    margin: 50px 0px 0px 0px;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 150px;
+}
+
+.contactorder{
+    margin: 50px 0px;
+}
+.conDiv{
+    display: flex;
+    margin: 15px 0;
+}
+.conDiv li{
+    margin: 0px 15px 10px 0px;
+}
+.formorden label, .formorden input, .formorden textarea{
+    margin-bottom: 8px;
+}
+
+
+
+
+@media screen and (max-width: 1023px) and (min-width: 500px) {
+
+    .primero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .segundo a {
+        font-size: 1.5rem;
+    } 
+    .pad{
+        width: 200px;
+        padding: 0px 20px;
+    }
+
+    .linea{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        /*flex-wrap: wrap;*/
+    }
+    .tamaño{
+        width: 200px;
+    }
+
+    .mainOrden{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .segundo li{
+        display: inline-block;
+        padding: 0px 1rem;
+    }
+    .cuerpoOrden{
+        display: flex;
+        justify-content:space-evenly;
+    }
+   
+}
+
+@media screen and (min-width: 1024px){
+
+    .primero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .segundo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .segundo li{
+        display: inline-block;
+        padding: 0px 2rem;
+    }
+
+    .mainOrden{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linea{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .tamaño{
+        width: 250px;
+    }
+    .cuerpoOrden{
+        display: flex;
+        justify-content:space-evenly;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo{
+        width: 20%;
+        cursor: pointer;
+    }
+
+    .desabilitado{
+        display: none;
+    }
+
+    .tamaño{
+        width: 200px;
+    }
+
+    .primero{
+        display: flex;
+        justify-content: center;
+    }
+
+    .segundo{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 1% 1%;
+    }
+    .segundo li{
+        display: list-item;
+    }
+
+    .linea{
+        display:flex;
+        flex-direction: column;
+    }
+    .mainOrden{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .divFoter{
+        display: flex;
+        flex-direction: column;
+        background-color:blanchedalmond;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .divFoter ul{
+        padding: 5px 30px 5px 30px;
+        color: black;
+    }
+    .divFoter a{
+        color: black;
+        font-weight: bold;
+    }
+
+}
+
+
+
+
+
