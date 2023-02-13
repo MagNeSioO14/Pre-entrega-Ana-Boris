@@ -101,11 +101,6 @@ h4{
     text-transform: uppercase;
 }
 
-.divcat, .spanOrder, .formorden{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
 
 .divcat div{
     margin: 10px 10px;
@@ -192,6 +187,12 @@ h4{
         display: flex;
         justify-content:space-evenly;
     }
+
+    .divcat, .spanOrder, .formorden{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
    
 }
 
@@ -232,6 +233,11 @@ h4{
     .cuerpoOrden{
         display: flex;
         justify-content:space-evenly;
+    }
+    .divcat, .spanOrder, .formorden{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 }
 
@@ -290,6 +296,25 @@ h4{
         font-weight: bold;
     }
 
+    .divcat{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    
+    .spanOrder{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    .spanOrder input {
+        width: 10rem;
+        margin: 0px 10px;
+    }
+    .butFiltrar{
+        margin: 0px 50px;
+    }
 }
 
 
