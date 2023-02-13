@@ -108,20 +108,17 @@ h4{
     flex-direction: column;
 }
 
-
-
 .quienesSomos, .talles{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0px 150px;
+    margin: 0% 15% ;
 }
 
 .talles img{
-    height: 500px;
-    width: 500px;
-    margin: 0px 70px;
+    width: 50vw;
 }
+
 .talles p{
     margin: 50px 0px 0px 0px;
 }
@@ -145,8 +142,6 @@ h4{
 .formorden label, .formorden input, .formorden textarea{
     margin-bottom: 8px;
 }
-
-
 
 
 @media screen and (max-width: 1023px) and (min-width: 500px) {
@@ -193,7 +188,20 @@ h4{
         flex-direction: column;
         justify-content: space-evenly;
     }
-   
+    .quienesSomos {
+        margin: 0% 10%;
+    }
+    .talles{
+        margin: 0% 10%;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 150px;
+    }
+    .contactorder{
+        margin: 20px 0px;
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -314,6 +322,31 @@ h4{
     }
     .butFiltrar{
         margin: 0px 50px;
+    }
+    .quienesSomos p{
+        font-size: 1.3rem;
+    }
+    .quienesSomos {
+        margin: 0% 10%;
+    }
+    .talles{
+        margin: 0% 10%;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        margin: 0% 10%;
+    }
+    .contactorder{
+        margin: 20px 0px;
+    }
+    .formorden {
+        display: flex;
+        flex-direction: column;
+    }
+    .tamañomap{
+        width:  300px; 
+        height: 200px;
     }
 }
 
