@@ -22,7 +22,7 @@ h1{
     margin: 20px 0px;
 }
 
-a, ul, h2, label,p{
+a, ul, h2, label,p, h3, span{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
@@ -181,6 +181,20 @@ footer{
     "main main"
     "footer footer"
     ;
+}
+
+.subAnimation:hover{
+    text-decoration: underline;
+}
+
+.noStock{
+    background-color: gray;
+    opacity: 20%;
+}
+
+.sinStock{
+    transform: translate(70px, -150px);
+    font-size: 2.5rem;
 }
 
 

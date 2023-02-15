@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zeuz</title>
 
-    <!--  -->
+    <!-- Link BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!--  -->
@@ -31,11 +31,11 @@
         <!-- Menu -->
         <nav class="segundo">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./pages/catalogo.html">Catalogo</a></li>
-                <li><a href="./pages/quienessomos.html">Quienes somos?</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a href="./pages/talles.html">Nuestros talles</a></li>
+                <li><a class="subAnimation" href="index.html">Home</a></li>
+                <li><a class="subAnimation" href="./pages/catalogo.html">Catalogo</a></li>
+                <li><a class="subAnimation" href="./pages/quienessomos.html">Quienes somos?</a></li>
+                <li><a class="subAnimation" href="./pages/contacto.html">Contacto</a></li>
+                <li><a class="subAnimation" href="./pages/talles.html">Nuestros talles</a></li>
             </ul>
         </nav>
 
@@ -53,7 +53,7 @@
                     <img src="./img/1.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/Remeras 2.jpg"  class="d-block w-100" alt="...">
+                    <img src="./img/Remeras 2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="./img/23.png" class="d-block w-100" alt="...">
@@ -77,19 +77,31 @@
         <main class="mainOrden">
             <div class="linea">
 
-                <a href="./pages/Producto.html" class="pad">
-                    <img class="tamaño" src="./img/Kaguya.png" alt="Remera Kaguya-sama">
-                    <h3>Kaguya-Sama</h3>
-                </a>
+                <div class="pad">
+                    <div>
+                        <a href="./pages/Producto.html">
+                            <img class="tamaño" src="./img/Kaguya.png" alt="Remera Kaguya-sama">
+                        </a>
+                    </div>
+                    <h3 class="subAnimation">Remera Kaguya-Sama</h3>
+                    <span>$1500</span>
+                </div>
 
-                <a href="#" class="pad">
-                    <img class="tamaño" src="./img/Ojos.png" alt="Remera Ojos">
-                    <h3>Ojos</h3>
-                </a>
+                <div class="pad">
+                    <div>
+                        <a href="#">
+                            <img class="tamaño noStock" src="./img/Ojos.png" alt="Remera Ojos">
+                            <h3 class="sinStock">Sin Stock</h3>
+                        </a>
+                    </div>
+                    <h3 class="subAnimation">Remera Ojos</h3>
+                    <span>$1500</span>
+                </div>
 
                 <a href="#" class="pad">
                     <img class="tamaño" src="./img/Revenger.png" alt="Remera Revengers">
-                    <h3>Revengers</h3>
+                    <h3 class="subAnimation">Remera Revengers</h3>
+                    <span>$2500</span>
                 </a>
 
             </div>
@@ -98,17 +110,20 @@
 
                 <a href="#" class="pad">
                     <img class="tamaño" src="./img/Pulpo.png" alt="Remera Pulpo">
-                    <h3>Pulpo</h3>
+                    <h3 class="subAnimation">Remera Pulpo</h3>
+                    <span>$1500</span>
                 </a>
 
                 <a href="#" class="pad">
                     <img class="tamaño" src="./img/Marciano.png " alt="Remera Marciano">
-                    <h3>Marciano</h3>
+                    <h3 class="subAnimation">Remera Marciano</h3>
+                    <span>$1500</span>
                 </a>
 
                 <a href="#" class="pad">
                     <img class="tamaño" src="./img/Revenger.png" alt="Remera Ojos">
-                    <h3>Revengers</h3>
+                    <h3 class="subAnimation">Remera Revengers</h3>
+                    <span>$2500</span>
                 </a>
 
             </div>
@@ -161,7 +176,7 @@
     </div>
 
 
-    <!--  -->
+    <!-- Script BS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
