@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html, body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
@@ -14,7 +15,7 @@ html {
     font-size: 62.5%;
 }
 
-h1{
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
@@ -22,7 +23,13 @@ h1{
     margin: 20px 0px;
 }
 
-a, ul, h2, label,p, h3, span{
+a,
+ul,
+h2,
+label,
+p,
+h3,
+span {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
@@ -30,116 +37,125 @@ a, ul, h2, label,p, h3, span{
     text-decoration: none;
     list-style-type: none;
 }
-button{
+
+button {
     color: black;
     font-weight: bold;
     font-size: 1.5rem;
-    border-radius:30px;
+    border-radius: 30px;
     padding: 20px;
     margin: 0px 30px;
 }
 
-.logo{
+.logo {
     width: 8%;
     height: 8%;
     cursor: pointer;
 }
 
-body{
+body {
     background-color: rgb(0, 0, 0);
 }
 
-.segundo{
-    background-color:blanchedalmond;
+.segundo {
+    background-color: blanchedalmond;
     padding: 1% 10%;
 }
 
-.segundo a{
+.segundo a {
     color: black;
     font-size: 2rem;
     font-weight: bold;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.pad{
+.pad {
     padding: 0px 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
-} 
+}
 
-footer{
+footer {
     width: 100%;
 }
 
-.divFoter{
+.divFoter {
     display: flex;
     justify-content: space-around;
-    background-color:blanchedalmond;
+    background-color: blanchedalmond;
     margin: 40px 0px 0px 0px;
 }
 
-.divFoter ul{
+.divFoter ul {
     padding: 20px 30px 30px 30px;
     color: black;
 }
-.divFoter a{
+
+.divFoter a {
     color: black;
     font-weight: bold;
 }
-h4{
-    margin: 10px 0px; 
-    font-weight:900;
+
+h4 {
+    margin: 10px 0px;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
 
-.divcat div{
+.divcat div {
     margin: 10px 10px;
     display: flex;
     flex-direction: column;
 }
 
-.quienesSomos, .talles{
+.quienesSomos,
+.talles {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0% 15% ;
+    margin: 0% 15%;
 }
 
-.talles img{
+.talles img {
     width: 50vw;
 }
 
-.talles p{
+.talles p {
     margin: 50px 0px 0px 0px;
 }
 
-.contacto{
+.contacto {
     display: flex;
     justify-content: space-evenly;
     margin: 0px 150px;
 }
 
-.contactorder{
+.contactorder {
     margin: 50px 0px;
 }
-.conDiv{
+
+.conDiv {
     display: flex;
     margin: 15px 0;
 }
-.conDiv li{
+
+.conDiv li {
     margin: 0px 15px 10px 0px;
 }
-.formorden label, .formorden input, .formorden textarea{
+
+.formorden label,
+.formorden input,
+.formorden textarea {
     margin-bottom: 8px;
 }
 
-.logoTarjetas{
-    width: 40px; 
+.logoTarjetas {
+    width: 40px;
     height: 25px;
 }
 
@@ -148,59 +164,84 @@ h4{
     height: 43px;
 }
 
-ul{
+ul {
     margin-bottom: 0rem;
 }
 
-header{
+header {
     grid-area: header;
 }
 
-nav{
+nav {
     grid-area: nav;
 }
 
-main{
+main {
     grid-area: main;
 }
 
-footer{
+footer {
     grid-area: footer;
 }
- 
-.divCarrousel{
+
+.divCarrousel {
     grid-area: divCarrousel;
 }
 
 .bodyContenedor {
     display: grid;
-    grid-template-areas: 
-    "header header"
-    "nav nav"
-    "divCarrousel divCarrousel"
-    "main main"
-    "footer footer"
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "divCarrousel divCarrousel"
+        "main main"
+        "footer footer"
     ;
 }
 
-.subAnimation:hover{
+.subAnimation:hover {
     text-decoration: underline;
 }
 
-.noStock{
+.noStock {
     background-color: gray;
     opacity: 20%;
 }
 
-.sinStock{
+.sinStock {
     transform: translate(70px, -150px);
     font-size: 2.5rem;
 }
 
+.serchColor {
+    color: white;
+    border-color: white;
+    margin: 0px 10px;
+}
+
+.serchColor:hover {
+    color: #5CEAFE;
+    border-color: #5CEAFE;
+}
+
+.carritoBut {
+    color: white;
+    border-color: white;
+    margin: 0px 30px;
+    font-size: 1.5rem;
+}
+
+.carritoBut:hover {
+    color: #5CEAFE;
+    border-color: #5CEAFE;
+}
+
+
+
 
 @media screen and (max-width: 1023px) and (min-width: 500px) {
 
-    .primero{
+    .primero {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -208,95 +249,110 @@ footer{
 
     .segundo a {
         font-size: 1.5rem;
-    } 
-    .pad{
+    }
+
+    .pad {
         width: 200px;
         padding: 0px 20px;
     }
 
-    .linea{
-        display:flex;
+    .linea {
+        display: flex;
         flex-direction: column;
         align-items: center;
         /*flex-wrap: wrap;*/
     }
-    .tamaño{
+
+    .tamaño {
         width: 200px;
     }
 
-    .mainOrden{
+    .mainOrden {
         display: flex;
         justify-content: space-evenly;
     }
-    .segundo li{
+
+    .segundo li {
         display: inline-block;
         padding: 0px 1rem;
     }
-    .cuerpoOrden{
+
+    .cuerpoOrden {
         display: flex;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
     }
 
-    .divcat, .spanOrder, .formorden{
+    .divcat,
+    .spanOrder,
+    .formorden {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
+
     .quienesSomos {
         margin: 0% 10%;
     }
-    .talles{
+
+    .talles {
         margin: 0% 10%;
     }
-    .contacto{
+
+    .contacto {
         display: flex;
         flex-direction: column;
         margin: 0px 150px;
     }
-    .contactorder{
+
+    .contactorder {
         margin: 20px 0px;
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
 
-    .primero{
+    .primero {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
-    .segundo{
+
+    .segundo {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .segundo li{
+
+    .segundo li {
         display: inline-block;
         padding: 0px 2rem;
     }
 
-    .mainOrden{
+    .mainOrden {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .linea{
+    .linea {
         display: flex;
         justify-content: center;
         align-items: center;
-    } 
+    }
 
-    .tamaño{
+    .tamaño {
         width: 250px;
     }
-    .cuerpoOrden{
+
+    .cuerpoOrden {
         display: flex;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
     }
-    .divcat, .spanOrder, .formorden{
+
+    .divcat,
+    .spanOrder,
+    .formorden {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -304,67 +360,70 @@ footer{
 }
 
 @media screen and (max-width: 499px) {
-    .logo{
+    .logo {
         width: 20%;
         cursor: pointer;
     }
 
-    .desabilitado{
+    .desabilitado {
         display: none;
     }
 
-    .tamaño{
+    .tamaño {
         width: 200px;
     }
 
-    .primero{
+    .primero {
         display: flex;
         justify-content: center;
     }
 
-    .segundo{
+    .segundo {
         display: flex;
         align-items: center;
         justify-content: start;
         padding: 1% 1%;
     }
-    .segundo li{
+
+    .segundo li {
         display: list-item;
     }
 
-    .linea{
-        display:flex;
+    .linea {
+        display: flex;
         flex-direction: column;
     }
-    .mainOrden{
+
+    .mainOrden {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .divFoter{
+    .divFoter {
         display: flex;
         flex-direction: column;
-        background-color:blanchedalmond;
+        background-color: blanchedalmond;
         margin: 40px 0px 0px 0px;
     }
 
-    .divFoter ul{
+    .divFoter ul {
         padding: 5px 30px 5px 30px;
         color: black;
     }
-    .divFoter a{
+
+    .divFoter a {
         color: black;
         font-weight: bold;
     }
 
-    .divcat{
+    .divcat {
         display: flex;
         flex-direction: column;
-        align-items:flex-start;
+        align-items: flex-start;
     }
-    
-    .spanOrder{
+
+    .spanOrder {
         display: flex;
         justify-content: space-between;
         margin-top: 5px;
@@ -374,39 +433,40 @@ footer{
         width: 10rem;
         margin: 0px 10px;
     }
-    .butFiltrar{
+
+    .butFiltrar {
         margin: 0px 50px;
     }
-    .quienesSomos p{
+
+    .quienesSomos p {
         font-size: 1.3rem;
     }
+
     .quienesSomos {
         margin: 0% 10%;
     }
-    .talles{
+
+    .talles {
         margin: 0% 10%;
     }
-    .contacto{
+
+    .contacto {
         display: flex;
         flex-direction: column;
         margin: 0% 10%;
     }
-    .contactorder{
+
+    .contactorder {
         margin: 20px 0px;
     }
+
     .formorden {
         display: flex;
         flex-direction: column;
     }
-    .tamañomap{
-        width:  300px; 
+
+    .tamañomap {
+        width: 300px;
         height: 200px;
     }
 }
-
-
-
-
-
-
-
