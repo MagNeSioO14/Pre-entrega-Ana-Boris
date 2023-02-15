@@ -49,11 +49,6 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
-/* header{
-    padding: 30px 10%;
-    background-color: black;
-} */
-
 .segundo{
     background-color:blanchedalmond;
     padding: 1% 10%;
@@ -151,6 +146,41 @@ h4{
 .logoRedes {
     width: 43px;
     height: 43px;
+}
+
+ul{
+    margin-bottom: 0rem;
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+ 
+.divCarrousel{
+    grid-area: divCarrousel;
+}
+
+.bodyContenedor {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "divCarrousel divCarrousel"
+    "main main"
+    "footer footer"
+    ;
 }
 
 
@@ -259,7 +289,7 @@ h4{
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 499px) {
     .logo{
         width: 20%;
         cursor: pointer;
@@ -359,6 +389,8 @@ h4{
         height: 200px;
     }
 }
+
+
 
 
 
