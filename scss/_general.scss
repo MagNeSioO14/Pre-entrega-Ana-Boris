@@ -1,0 +1,54 @@
+/* General */
+
+@mixin estilos{
+	font-family: $font-family_1;
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: $color_1;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+h1 {
+	font-family: $font-family_1;
+	font-weight: 600;
+	font-size: 2.5rem;
+	color: $color_1;
+	margin: 20px 0px;
+}
+
+a {
+	@include estilos;
+}
+ul {
+	@include estilos;
+	margin-bottom: 0rem;
+}
+h2 {
+	@include estilos;
+}
+label {
+	@include estilos;
+}
+p {
+	@include estilos;
+}
+h3 {
+	@include estilos;
+}
+span {
+	@include estilos;
+}
+
+.menuHm{
+    background-color: $background-color_2;
+}
+
+.menuOrden{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+

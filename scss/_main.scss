@@ -1,0 +1,59 @@
+/* Main */
+
+.pad {
+	padding: 0px 45px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.divcat {
+	div {
+		margin: 10px 10px;
+		display: flex;
+		flex-direction: column;
+	}
+}
+.quienesSomos {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0% 15%;
+}
+.talles {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0% 15%;
+	img {
+		width: 50vw;
+	}
+	p {
+		margin: 50px 0px 0px 0px;
+	}
+}
+.contacto {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0px 150px;
+}
+.contactorder {
+	margin: 50px 0px;
+}
+.conDiv {
+	display: flex;
+	margin: 15px 0;
+	li {
+		margin: 0px 15px 10px 0px;
+	}
+}
+.formorden {
+	label {
+		margin-bottom: 8px;
+	}
+	input {
+		margin-bottom: 8px;
+	}
+	textarea {
+		margin-bottom: 8px;
+	}
+}

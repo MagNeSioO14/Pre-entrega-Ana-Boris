@@ -1,0 +1,36 @@
+/* Animaciones */
+.subAnimation {
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.noStock {
+	background-color: $background-color_3;
+	opacity: 20%;
+}
+.sinStock {
+	transform: translate(70px, -150px);
+	font-size: 2.5rem;
+}
+.serchColor {
+	color: $color_3;
+	border-color: $border-color_1;
+	margin: 0px 10px;
+	transition: transform 0.3s;
+	&:hover {
+		color: $color_4;
+		border-color: $border-color_2;
+	}
+}
+.carritoBut {
+	color: $color_3;
+	border-color: $border-color_1;
+	margin: 0px 30px;
+	font-size: 1.5rem;
+	transition: transform .3s;
+	&:hover {
+		color: $color_4;
+		border-color: $border-color_2;
+	}
+}

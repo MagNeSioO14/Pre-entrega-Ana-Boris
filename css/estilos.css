@@ -1,472 +1,495 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap";
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-html,
-body {
-    height: 100%;
-    width: 100%;
-}
-
-html {
-    font-size: 62.5%;
-}
-
+/* Variables */ /* General */
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 2.5rem;
-    color: rgb(255, 255, 255);
-    margin: 20px 0px;
-}
-
-a,
-ul,
-h2,
-label,
-p,
-h3,
-span {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 1.5rem;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    list-style-type: none;
-}
-
-button {
-    color: black;
-    font-weight: bold;
-    font-size: 1.5rem;
-    border-radius: 30px;
-    padding: 20px;
-    margin: 0px 30px;
-}
-
-.logo {
-    width: 8%;
-    height: 8%;
-    cursor: pointer;
-}
-
-body {
-    background-color: rgb(0, 0, 0);
-}
-
-.segundo {
-    background-color: blanchedalmond;
-    padding: 1% 10%;
-}
-
-.segundo a {
-    color: black;
-    font-size: 2rem;
-    font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  margin: 20px 0px;
 }
 
 a {
-    text-decoration: none;
-}
-
-.pad {
-    padding: 0px 45px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer {
-    width: 100%;
-}
-
-.divFoter {
-    display: flex;
-    justify-content: space-around;
-    background-color: blanchedalmond;
-    margin: 40px 0px 0px 0px;
-}
-
-.divFoter ul {
-    padding: 20px 30px 30px 30px;
-    color: black;
-}
-
-.divFoter a {
-    color: black;
-    font-weight: bold;
-}
-
-h4 {
-    margin: 10px 0px;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-
-.divcat div {
-    margin: 10px 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.quienesSomos,
-.talles {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0% 15%;
-}
-
-.talles img {
-    width: 50vw;
-}
-
-.talles p {
-    margin: 50px 0px 0px 0px;
-}
-
-.contacto {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0px 150px;
-}
-
-.contactorder {
-    margin: 50px 0px;
-}
-
-.conDiv {
-    display: flex;
-    margin: 15px 0;
-}
-
-.conDiv li {
-    margin: 0px 15px 10px 0px;
-}
-
-.formorden label,
-.formorden input,
-.formorden textarea {
-    margin-bottom: 8px;
-}
-
-.logoTarjetas {
-    width: 40px;
-    height: 25px;
-}
-
-.logoRedes {
-    width: 43px;
-    height: 43px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style-type: none;
 }
 
 ul {
-    margin-bottom: 0rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 0rem;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menuHm {
+  background-color: blanchedalmond;
+}
+
+.menuOrden {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Header */
+button {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 0px 30px;
+}
+
+.logo {
+  width: 8%;
+  height: 8%;
+  cursor: pointer;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Menu */
+.menuHm {
+  background-color: blanchedalmond;
+  padding: 0.5% 0.5%;
+}
+.menuHm a {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Main */
+.pad {
+  padding: 0px 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divcat div {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quienesSomos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0% 15%;
+}
+
+.talles {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0% 15%;
+}
+.talles img {
+  width: 50vw;
+}
+.talles p {
+  margin: 50px 0px 0px 0px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 150px;
+}
+
+.contactorder {
+  margin: 50px 0px;
+}
+
+.conDiv {
+  display: flex;
+  margin: 15px 0;
+}
+.conDiv li {
+  margin: 0px 15px 10px 0px;
+}
+
+.formorden label {
+  margin-bottom: 8px;
+}
+.formorden input {
+  margin-bottom: 8px;
+}
+.formorden textarea {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+}
+
+.divFoter {
+  display: flex;
+  justify-content: space-around;
+  background-color: blanchedalmond;
+  margin: 40px 0px 0px 0px;
+}
+.divFoter ul {
+  padding: 20px 30px 30px 30px;
+  color: black;
+}
+.divFoter a {
+  color: black;
+  font-weight: bold;
+}
+
+h4 {
+  margin: 10px 0px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.logoTarjetas {
+  width: 40px;
+  height: 25px;
+}
+
+.logoRedes {
+  width: 43px;
+  height: 43px;
+}
+
+/* Grid */
 header {
-    grid-area: header;
+  grid-area: header;
 }
 
 nav {
-    grid-area: nav;
+  grid-area: nav;
 }
 
 main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
+  grid-area: main;
 }
 
 .divCarrousel {
-    grid-area: divCarrousel;
+  grid-area: divCarrousel;
+}
+
+footer {
+  grid-area: footer;
 }
 
 .bodyContenedor {
-    display: grid;
-    grid-template-areas:
-        "header header"
-        "nav nav"
-        "divCarrousel divCarrousel"
-        "main main"
-        "footer footer"
-    ;
+  display: grid;
+  grid-template-areas: "header header" "nav nav" "divCarrousel divCarrousel" "main main" "footer footer";
 }
 
+/* Animaciones */
 .subAnimation:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .noStock {
-    background-color: gray;
-    opacity: 20%;
+  background-color: gray;
+  opacity: 20%;
 }
 
 .sinStock {
-    transform: translate(70px, -150px);
-    font-size: 2.5rem;
+  transform: translate(70px, -150px);
+  font-size: 2.5rem;
 }
 
 .serchColor {
-    color: white;
-    border-color: white;
-    margin: 0px 10px;
+  color: white;
+  border-color: white;
+  margin: 0px 10px;
+  transition: transform 0.3s;
 }
-
 .serchColor:hover {
-    color: #5CEAFE;
-    border-color: #5CEAFE;
+  color: #5CEAFE;
+  border-color: #5CEAFE;
 }
 
 .carritoBut {
-    color: white;
-    border-color: white;
-    margin: 0px 30px;
-    font-size: 1.5rem;
+  color: white;
+  border-color: white;
+  margin: 0px 30px;
+  font-size: 1.5rem;
+  transition: transform 0.3s;
 }
-
 .carritoBut:hover {
-    color: #5CEAFE;
-    border-color: #5CEAFE;
+  color: #5CEAFE;
+  border-color: #5CEAFE;
 }
 
-
-
-
+/* Medias Queries */
 @media screen and (max-width: 1023px) and (min-width: 500px) {
-
-    .primero {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .segundo a {
-        font-size: 1.5rem;
-    }
-
-    .pad {
-        width: 200px;
-        padding: 0px 20px;
-    }
-
-    .linea {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /*flex-wrap: wrap;*/
-    }
-
-    .tamaño {
-        width: 200px;
-    }
-
-    .mainOrden {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .segundo li {
-        display: inline-block;
-        padding: 0px 1rem;
-    }
-
-    .cuerpoOrden {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .divcat,
-    .spanOrder,
-    .formorden {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    .quienesSomos {
-        margin: 0% 10%;
-    }
-
-    .talles {
-        margin: 0% 10%;
-    }
-
-    .contacto {
-        display: flex;
-        flex-direction: column;
-        margin: 0px 150px;
-    }
-
-    .contactorder {
-        margin: 20px 0px;
-    }
+  .primero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .segundo a {
+    font-size: 1.5rem;
+  }
+  .segundo li {
+    display: inline-block;
+    padding: 0px 1rem;
+  }
+  .pad {
+    width: 200px;
+    padding: 0px 20px;
+  }
+  .linea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tamaño {
+    width: 200px;
+  }
+  .mainOrden {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .cuerpoOrden {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .divcat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .spanOrder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .formorden {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .quienesSomos {
+    margin: 0% 10%;
+  }
+  .talles {
+    margin: 0% 10%;
+  }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 150px;
+  }
+  .contactorder {
+    margin: 20px 0px;
+  }
 }
-
 @media screen and (min-width: 1024px) {
-
-    .primero {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .segundo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .segundo li {
-        display: inline-block;
-        padding: 0px 2rem;
-    }
-
-    .mainOrden {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .linea {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .tamaño {
-        width: 250px;
-    }
-
-    .cuerpoOrden {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .divcat,
-    .spanOrder,
-    .formorden {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
+  .primero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .segundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .segundo li {
+    display: inline-block;
+    padding: 0px 2rem;
+  }
+  .mainOrden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .linea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tamaño {
+    width: 250px;
+  }
+  .cuerpoOrden {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .divcat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .spanOrder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .formorden {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 }
-
 @media screen and (max-width: 499px) {
-    .logo {
-        width: 20%;
-        cursor: pointer;
-    }
-
-    .desabilitado {
-        display: none;
-    }
-
-    .tamaño {
-        width: 200px;
-    }
-
-    .primero {
-        display: flex;
-        justify-content: center;
-    }
-
-    .segundo {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        padding: 1% 1%;
-    }
-
-    .segundo li {
-        display: list-item;
-    }
-
-    .linea {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .mainOrden {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .divFoter {
-        display: flex;
-        flex-direction: column;
-        background-color: blanchedalmond;
-        margin: 40px 0px 0px 0px;
-    }
-
-    .divFoter ul {
-        padding: 5px 30px 5px 30px;
-        color: black;
-    }
-
-    .divFoter a {
-        color: black;
-        font-weight: bold;
-    }
-
-    .divcat {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .spanOrder {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 5px;
-    }
-
-    .spanOrder input {
-        width: 10rem;
-        margin: 0px 10px;
-    }
-
-    .butFiltrar {
-        margin: 0px 50px;
-    }
-
-    .quienesSomos p {
-        font-size: 1.3rem;
-    }
-
-    .quienesSomos {
-        margin: 0% 10%;
-    }
-
-    .talles {
-        margin: 0% 10%;
-    }
-
-    .contacto {
-        display: flex;
-        flex-direction: column;
-        margin: 0% 10%;
-    }
-
-    .contactorder {
-        margin: 20px 0px;
-    }
-
-    .formorden {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .tamañomap {
-        width: 300px;
-        height: 200px;
-    }
+  .logo {
+    width: 20%;
+    cursor: pointer;
+  }
+  .desabilitado {
+    display: none;
+  }
+  .tamaño {
+    width: 200px;
+  }
+  .primero {
+    display: flex;
+    justify-content: center;
+  }
+  .segundo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1% 1%;
+  }
+  .segundo li {
+    display: list-item;
+  }
+  .linea {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainOrden {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .divFoter {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    margin: 40px 0px 0px 0px;
+  }
+  .divFoter ul {
+    padding: 5px 30px 5px 30px;
+    color: black;
+  }
+  .divFoter a {
+    color: black;
+    font-weight: bold;
+  }
+  .divcat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .spanOrder {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .spanOrder input {
+    width: 10rem;
+    margin: 0px 10px;
+  }
+  .butFiltrar {
+    margin: 0px 50px;
+  }
+  .quienesSomos {
+    margin: 0% 10%;
+  }
+  .quienesSomos p {
+    font-size: 1.3rem;
+  }
+  .talles {
+    margin: 0% 10%;
+  }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10%;
+  }
+  .contactorder {
+    margin: 20px 0px;
+  }
+  .formorden {
+    display: flex;
+    flex-direction: column;
+  }
+  .tamañomap {
+    width: 300px;
+    height: 200px;
+  }
 }
+
+/*# sourceMappingURL=estilos.css.map */

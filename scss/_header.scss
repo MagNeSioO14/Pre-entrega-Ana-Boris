@@ -1,0 +1,26 @@
+/* Header */
+
+button {
+	color: $color_2;
+	font-weight: bold;
+	font-size: 1.5rem;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 0px 30px;
+}
+.logo {
+	width: 8%;
+	height: 8%;
+	cursor: pointer;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	font-size: 62.5%;
+}
+body {
+	height: 100%;
+	width: 100%;
+	background-color: $background-color_1;
+}

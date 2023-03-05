@@ -1,0 +1,20 @@
+/* Grid */
+header {
+	grid-area: header;
+}
+nav {
+	grid-area: nav;
+}
+main {
+	grid-area: main;
+}
+.divCarrousel {
+	grid-area: divCarrousel;
+}
+footer {
+	grid-area: footer;	
+}
+.bodyContenedor {
+	display: grid;
+	grid-template-areas: "header header" "nav nav" "divCarrousel divCarrousel" "main main" "footer footer";
+}
