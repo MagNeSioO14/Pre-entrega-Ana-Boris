@@ -64,6 +64,11 @@
 	.contactorder {
 		margin: 20px 0px;
 	}
+	.produCuerpo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
 @media screen and (min-width: 1024px) {
 	.primero {
@@ -112,6 +117,11 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
+	}
+	.produCuerpo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 @media screen and (max-width: 499px) {
@@ -203,4 +213,11 @@
 		width: 300px;
 		height: 200px;
 	}
+	.produCuerpo{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
 }

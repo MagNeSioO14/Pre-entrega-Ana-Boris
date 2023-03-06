@@ -57,3 +57,38 @@
 		margin-bottom: 8px;
 	}
 }
+
+.imgTam{
+	width: 80%;
+}
+
+.produTamaño{
+	width: 30vh;
+	height: 80vh;
+	margin: 5% 5%;
+	// img{
+	// 	margin: 0% 10% 15% 10%;
+	// }
+	div{
+		margin: 5% 0%;
+	}
+	select{
+		width: 50%;
+		font-size: 1.3rem;
+		font-weight: bold;
+	}
+}
+.btnAgregar{
+	border-radius: 0px;
+	padding: 5px;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	color: $color_2;
+	background-color: $background-color_2;
+}
+
+.separar{
+	display: flex;
+	justify-content: space-between;
+}
