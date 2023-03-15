@@ -10,8 +10,8 @@ button {
 }
 
 .logo {
-	width: 8%;
-	height: 8%;
+	width: 23%;
+	height: 23%;
 	cursor: pointer;
 }
 
@@ -25,4 +25,10 @@ body {
 	height: 100%;
 	width: 100%;
 	background-color: $background-color_1;
+}
+
+.centrarLogo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
