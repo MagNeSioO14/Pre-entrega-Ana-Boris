@@ -59,6 +59,7 @@
 	.contacto {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 		margin: 0px 150px;
 	}
 	.contactorder {
@@ -68,6 +69,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+	.contacOrden{
+		display: flex;
+		justify-content:space-evenly;
+	}
+	.fixed-bottom{
+		position: inherit;
 	}
 }
 @media screen and (min-width: 1024px) {
@@ -123,6 +131,10 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.contacOrden{
+		display: flex;
+		justify-content:space-evenly;
+	}
 }
 @media screen and (max-width: 499px) {
 	.logo {
@@ -174,7 +186,7 @@
 	.divcat {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
+		align-items: center;
 	}
 	.spanOrder {
 		display: flex;
@@ -200,6 +212,7 @@
 	.contacto {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 		margin: 0% 10%;
 	}
 	.contactorder {
@@ -218,6 +231,14 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.mediosOrden{
+		display: flex;
+		justify-content: space-between;
+	}
+	.fixed-bottom{
+		position: inherit;
 	}
 
 }

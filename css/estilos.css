@@ -144,6 +144,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   margin: 0% 15%;
 }
 
@@ -163,7 +164,11 @@ body {
 .contacto {
   display: flex;
   justify-content: space-evenly;
-  margin: 0px 150px;
+  align-items: center;
+  margin: 0px 10%;
+}
+.contacto .formTamaño {
+  width: 300px;
 }
 
 .contactorder {
@@ -183,6 +188,12 @@ body {
 }
 .formorden input {
   margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 0%;
+  border: 1px solid rgba(0, 0, 0, 0.271);
 }
 .formorden textarea {
   margin-bottom: 8px;
@@ -193,7 +204,7 @@ body {
 }
 
 .produTamaño {
-  width: 30vh;
+  width: 40vh;
   height: 80vh;
   margin: 5% 5%;
 }
@@ -221,6 +232,11 @@ body {
   justify-content: space-between;
 }
 
+.carroTam {
+  max-width: 336px;
+  max-height: 418px;
+}
+
 /* Footer */
 footer {
   width: 100%;
@@ -228,9 +244,10 @@ footer {
 
 .divFoter {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: blanchedalmond;
   margin: 40px 0px 0px 0px;
+  padding-bottom: 20px;
 }
 .divFoter ul {
   padding: 20px 30px 30px 30px;
@@ -380,6 +397,7 @@ footer {
   .contacto {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0px 150px;
   }
   .contactorder {
@@ -389,6 +407,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .contacOrden {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .fixed-bottom {
+    position: inherit;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -444,6 +469,10 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .contacOrden {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 @media screen and (max-width: 499px) {
   .logo {
@@ -495,7 +524,7 @@ footer {
   .divcat {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .spanOrder {
     display: flex;
@@ -521,6 +550,7 @@ footer {
   .contacto {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0% 10%;
   }
   .contactorder {
@@ -539,6 +569,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .mediosOrden {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fixed-bottom {
+    position: inherit;
   }
 }
 
