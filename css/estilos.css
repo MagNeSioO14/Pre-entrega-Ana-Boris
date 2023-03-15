@@ -206,7 +206,7 @@ body {
 .produTamaño {
   width: 40vh;
   height: 80vh;
-  margin: 5% 5%;
+  margin: 2% 5%;
 }
 .produTamaño div {
   margin: 5% 0%;
@@ -225,16 +225,13 @@ body {
   margin-right: 2.5%;
   color: black;
   background-color: blanchedalmond;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .separar {
   display: flex;
   justify-content: space-between;
-}
-
-.carroTam {
-  max-width: 336px;
-  max-height: 418px;
 }
 
 /* Footer */

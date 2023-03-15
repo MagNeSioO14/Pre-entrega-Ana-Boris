@@ -6,6 +6,7 @@
 	flex-direction: column;
 	align-items: center;
 }
+
 .divcat {
 	div {
 		margin: 10px 10px;
@@ -13,6 +14,7 @@
 		flex-direction: column;
 	}
 }
+
 .quienesSomos {
 	display: flex;
 	justify-content: center;
@@ -20,41 +22,51 @@
 	align-items: center;
 	margin: 0% 15%;
 }
+
 .talles {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	margin: 0% 15%;
+
 	img {
 		width: 50vw;
 	}
+
 	p {
 		margin: 50px 0px 0px 0px;
 	}
 }
+
 .contacto {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	margin: 0px 10%;
-		.formTamaño{
-			width: 300px;
-		}
+
+	.formTamaño {
+		width: 300px;
+	}
 }
+
 .contactorder {
 	margin: 50px 0px;
 }
+
 .conDiv {
 	display: flex;
 	margin: 15px 0;
+
 	li {
 		margin: 0px 15px 10px 0px;
 	}
 }
+
 .formorden {
 	label {
 		margin-bottom: 8px;
 	}
+
 	input {
 		margin-bottom: 8px;
 		font-family: $font-family_1;
@@ -64,29 +76,33 @@
 		border-radius: 0%;
 		border: 1px solid rgba(0, 0, 0, 0.271);
 	}
+
 	textarea {
 		margin-bottom: 8px;
 	}
 }
 
-.imgTam{
+.imgTam {
 	width: 80%;
 }
 
-.produTamaño{
+.produTamaño {
 	width: 40vh;
 	height: 80vh;
-	margin: 5% 5%;
-	div{
+	margin: 2% 5%;
+
+	div {
 		margin: 5% 0%;
 	}
-	select{
+
+	select {
 		width: 50%;
 		font-size: 1.3rem;
 		font-weight: bold;
 	}
 }
-.btnAgregar{
+
+.btnAgregar {
 	border-radius: 0px;
 	padding: 5px;
 	width: 95%;
@@ -94,15 +110,11 @@
 	margin-right: 2.5%;
 	color: $color_2;
 	background-color: $background-color_2;
+	font-weight: bold;
+	font-size: 1.5rem;
 }
 
-.separar{
+.separar {
 	display: flex;
 	justify-content: space-between;
 }
-
-.carroTam{
-	max-width: 336px;
-	max-height: 418px;
-}
-
