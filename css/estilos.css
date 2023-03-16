@@ -211,7 +211,6 @@ body {
 
 .produTamaño {
   width: 40vh;
-  height: 80vh;
   margin: 2% 5%;
 }
 .produTamaño div {
@@ -579,6 +578,10 @@ footer {
   }
   .fixed-bottom {
     position: inherit;
+  }
+  .produTamaño {
+    height: 100%;
+    margin: 5% 5%;
   }
 }
 
