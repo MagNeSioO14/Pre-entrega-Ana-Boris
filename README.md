@@ -4,10 +4,9 @@ Entrega-Final hecha por ana boris
 Este es un proyecto de un ecommerce desarrollado por Ana Boris Adriano, esta enfocado en la industria del anime,
 donde se producen remeras estampada en serigrafía, con la estampa que tu quieras o con nuestros modelos.
 
-fue un proyecto solo hecho con HTML, CSS y bootstrap, se adapto a tres rangos de vista, las cuales serian
+Es un proyecto hecho solo con HTML, CSS y bootstrap, se adapto a tres rangos de vista, las cuales serian
 vista para celular, tablet y ordenador. se hicieron un total de 6 paginas, la pagina "Productos" solo es 
 accesible desde la primera imagen del inicio.
-
 
 
 En la pagina "PRODUCTOS" intente poner un carrousel con BT para poder motrar las imagenes de mis remeras,
