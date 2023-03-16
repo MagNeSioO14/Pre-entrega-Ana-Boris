@@ -15,3 +15,5 @@ me dijeron que con acomodar el tamaño original de las imagenes para que todas t
 a solucionar, pero no se soluciono y no pude encotrar una solucion, asique el problema persiste y lo deje,
 ya que de todos modos me gustaria poder mostrar las imagenes de una forma similar a esta.
 
+Dejo link de netlify
+https://zeuzindumentaria.netlify.app/
